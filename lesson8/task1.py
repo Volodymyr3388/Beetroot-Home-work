@@ -9,3 +9,6 @@
 def favourite_movie(movie):
     s = ("My favorite movie is named: " + movie)
     return(s)
+
+
+print(favourite_movie("Червоний"))
