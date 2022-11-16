@@ -1,8 +1,8 @@
 from mymod import count_lines
 from mymod import count_chars
 from mymod import test
-print(count_lines("my_text.py"))
-print(count_chars("my_text.py"))
-print(test("my_text.py"))
+print("lines: ", count_lines("my_text.txt"))
+print("chars: ", count_chars("my_text.txt"))
+print("lines and chars: ", test("my_text.txt"))
 print(test("howmuch.py"))
 print(test("mymod.py"))
