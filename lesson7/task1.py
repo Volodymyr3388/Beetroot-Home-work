@@ -4,6 +4,13 @@
 # on input and returns a dict containing all unique words
 # as keys and the number of occurrences as values.
 
-a = input("Enter the string: ")
-my_dict = {i: a.count(i) for i in a}
-print(my_dict)
+a = input("enter the string: ")
+b = {}
+c = a.split()
+for i in c:
+    if i not in b:
+        b[i] = c.count(i)
+    else:
+        pass
+
+print(b)
